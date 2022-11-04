@@ -189,7 +189,7 @@ img {
   flex-direction: row;
   align-items: baseline;
   justify-content: left;
-  gap: 70px;
+  gap: 93px;
 }
 .footer-block {
   display: flex;
@@ -956,7 +956,7 @@ img {
   color: var(--fontcolordescrp);
   line-height: 1.71;
   letter-spacing: 0.03em;
-  padding-left: 24px;
+  padding-left: 44px;
 }
 .agree-check-block .agree-label-checkbox {
   -webkit-appearance: none;
@@ -967,8 +967,8 @@ img {
   position: absolute;
   display: inline-block;
   content: '';
-  top: 0;
-  left: 0;
+  top: 3px;
+  left: 20px;
   width: 16px;
   height: 15px;
   border: 2px solid var(--fontblack);
