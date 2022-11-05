@@ -1,3 +1,18 @@
 .test {
   background-color: coral;
+  width: 400px;
+}
+
+.just-p {
+  background-color: blue;
+}
+
+.section {
+  color: red;
+}
+.section .title {
+  color: green;
+}
+.section .text {
+  color: teal;
 }/*# sourceMappingURL=main.css.map */

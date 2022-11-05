@@ -1,3 +1,20 @@
+$color: coral;
+$main-width: 400px;
 .test {
-  background-color: coral;
+  background-color: $color;
+  width: $main-width;
+  $color2: $color;
+}
+.just-p {
+  $color: blue;
+  background-color: $color;
+}
+.section {
+  color: red;
+  .title {
+    color: green;
+  }
+  .text {
+    color: teal;
+  }
 }
