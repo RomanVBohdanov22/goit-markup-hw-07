@@ -23,10 +23,9 @@
 .button {
   background-color: olivedrab;
 }
-.button:hover,
-.button:focus {
+.button:hover, .button:focus {
   color: aqua;
 }
 .section:hover .button {
   background-color: orange;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
