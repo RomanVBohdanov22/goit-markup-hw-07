@@ -28,4 +28,20 @@
 }
 .section:hover .button {
   background-color: orange;
+}
+
+.icon-facebook {
+  background-color: teal;
+}
+
+.icon-github {
+  background-color: teal;
+}
+
+.icon-linkedin {
+  background-color: teal;
+}
+
+.icon-twitter {
+  background-color: teal;
 }/*# sourceMappingURL=main.css.map */

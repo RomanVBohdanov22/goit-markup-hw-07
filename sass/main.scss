@@ -38,3 +38,10 @@ $main-width: 400px;
         background-color: orange;
     }
 }
+$icons: "facebook", "github", "linkedin", "twitter";
+@each $iconName in $icons {
+    .icon-#{$iconName}
+    {
+        background-color: teal;
+    }
+}
