@@ -18,4 +18,15 @@
 }
 .section-text {
   color: teal;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.button {
+  background-color: olivedrab;
+}
+.button:hover,
+.button:focus {
+  color: aqua;
+}
+.section:hover .button {
+  background-color: orange;
+} /*# sourceMappingURL=main.css.map */

@@ -20,3 +20,16 @@ $main-width: 400px;
     color: teal;
   }
 }
+.button
+{
+    background-color: olivedrab;
+    &:hover,
+    &:focus
+    {
+        color:aqua;
+    }
+    .section:hover &
+    {
+        background-color: orange;
+    }
+}
