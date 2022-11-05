@@ -10,9 +10,12 @@
 .section {
   color: red;
 }
-.section .title {
+.section-title {
   color: green;
 }
-.section .text {
+.section-title--magenta {
+  color: magenta;
+}
+.section-text {
   color: teal;
 }/*# sourceMappingURL=main.css.map */

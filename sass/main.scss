@@ -11,10 +11,12 @@ $main-width: 400px;
 }
 .section {
   color: red;
-  .title {
+  &-title {
     color: green;
+    &--magenta
+    {color: magenta;}
   }
-  .text {
+  &-text {
     color: teal;
   }
 }
