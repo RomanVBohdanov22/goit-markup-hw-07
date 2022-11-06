@@ -309,9 +309,10 @@ img {
   color: inherit; /*var(--fontblack);*/
   font-weight: 700;
   line-height: 1.19;
+  /*padding: 24px 0;*/
 }
 
-.logo-accent {
+.logo--accent {
   color: var(--bluetextclr);
 }
 

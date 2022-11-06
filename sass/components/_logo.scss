@@ -7,12 +7,19 @@
     /*var(--fontblack);*/
     font-weight: 700;
     line-height: 1.19;
+    /*padding: 24px 0;*/
 }
 
-.logo-accent {
+.logo--accent {
     color: var(--bluetextclr);
 }
 
-.header-logo, .footer-logo {
+/*.header-logo, .footer-logo {
     padding: 24px 0;
+}*/
+
+.footer .logo {
+    display: inline-block;
+    margin-bottom: 20px;
+    /*margin: 0 auto;*/
 }
