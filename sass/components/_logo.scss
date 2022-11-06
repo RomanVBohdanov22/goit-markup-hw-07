@@ -1,0 +1,22 @@
+.logo {
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-family: var(--bannerfont);
+    color: inherit;
+    /*var(--fontblack);*/
+    font-weight: 700;
+    line-height: 1.19;
+}
+
+.logo-accent {
+    color: var(--bluetextclr);
+}
+
+.header-logo {
+    padding: 24px 0;
+}
+
+.footer-logo {
+    padding: 24px 0;
+}

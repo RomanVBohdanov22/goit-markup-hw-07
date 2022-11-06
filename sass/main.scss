@@ -1,8 +1,9 @@
 @import "./utils/variables";
+@import "./utils/global";
 @import "./base/normalize";
 @import "./components/header";
 @import "./components/footer";
-
+/*
 $color: coral;
 $main-width: 400px;
 .test {
@@ -38,3 +39,4 @@ $main-width: 400px;
         background-color: orange;
     }
 }
+*/
