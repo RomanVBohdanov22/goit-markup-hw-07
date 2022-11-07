@@ -959,7 +959,6 @@ body {
   margin: 0;
   position: absolute;
   top: 50%;
-  /*calc(50% - 5px);*/
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   left: 12px;
@@ -967,8 +966,6 @@ body {
   height: 18px;
   fill: currentColor;
   pointer-events: none;
-  /*outline: 1px solid olive;*/
-  /*z-index: 2;*/
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1046,7 +1043,6 @@ body {
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .agree-check-block__checkbox:checked + .agree-check-block__alt-checkbox {
   background-color: var(--bluebtn);
   border-color: var(--bluebtn);
@@ -1054,7 +1050,6 @@ body {
   background-size: contain;
   background-origin: border-box;
 }
-
 .agree-check-block__checkbox:focus + .agree-check-block__alt-checkbox {
   border-color: var(--bluebtn);
   background-size: contain;
@@ -1106,9 +1101,7 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
-
-.submit-button:hover,
-.submit-button:focus {
+.submit-button:hover, .submit-button:focus {
   background-color: var(--button-to-order-active-clr);
 }
 
@@ -1146,6 +1139,11 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.modal-close-button:hover, .modal-close-button:focus {
+  background-color: var(--white-bg);
+  -webkit-transform: translateY(-200%);
+          transform: translateY(-200%);
+}
 
 .modal-close-button__icon {
   fill: currentColor;
@@ -1154,16 +1152,7 @@ body {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal-close-button:hover,
-.modal-close-button:focus {
-  background-color: var(--white-bg);
-  -webkit-transform: translateY(-200%);
-          transform: translateY(-200%);
-}
-
-.modal-close-button:hover .modal-close-button__icon,
-.modal-close-button:focus .modal-close-button__icon {
+.modal-close-button:hover .modal-close-button__icon, .modal-close-button:focus .modal-close-button__icon {
   fill: var(--bluebtn);
 }
 
