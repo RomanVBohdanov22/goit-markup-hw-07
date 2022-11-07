@@ -644,6 +644,60 @@ body {
   color: var(--fontcolordescrp);
 }
 
+.about {
+  /*margin-top: 0;*/
+  padding-top: 0;
+}
+
+.about-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--fontcolorh3);
+  text-align: center;
+}
+
+.about-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 30px;
+}
+
+.about-item {
+  margin-top: 0;
+  position: relative;
+}
+
+.about-image {
+  margin-top: 0;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-item-label {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--thumb-about-bg-color);
+  color: var(--whitetxt);
+  text-align: center;
+  letter-spacing: 0.03em;
+  line-height: 1.14;
+  font-weight: 500;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
 .text-wrapper .social-links__link {
   color: var(--icons-social-grey);
 }
