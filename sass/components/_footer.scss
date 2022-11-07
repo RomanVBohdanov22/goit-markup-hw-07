@@ -56,7 +56,7 @@
 }
 .address-list-link 
 {
-    &{
+    & {
         color: var(--whitetxt);
         text-decoration: none;
         letter-spacing: 0.03em;
@@ -156,7 +156,7 @@
 }
 
 .footer-form__input {
-    &{
+    & {
     margin-top: 0;
     margin-bottom: 0;
     /*10px*/
@@ -181,7 +181,7 @@
 
 
 .footer-submit__button {
-    &{
+    & {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -208,7 +208,7 @@
 }
 
 .footer-submit__icon {
-    &{
+    & {
     width: 24px;
     height: 24px;
     fill: currentColor;
