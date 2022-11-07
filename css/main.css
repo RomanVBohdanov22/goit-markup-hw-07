@@ -510,7 +510,6 @@ body {
   color: var(--icons-social-grey);
 }
 
-/*WTF?!*/
 .backdrop {
   position: fixed;
   top: 0;
@@ -571,7 +570,6 @@ body {
   margin-right: auto;
   font-weight: 500;
   font-family: inherit;
-  /*justify-content: center;*/
   text-align: center;
 }
 
@@ -677,10 +675,7 @@ body {
   gap: 8px;
 }
 
-.modal .agree-label {
-  /*font-size: 12px;*/
-  /*display: block;*/
-  /*font-weight: 700;*/
+.agree-check-block__label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -695,13 +690,13 @@ body {
   padding-left: 44px;
 }
 
-.agree-check-block .agree-label-checkbox {
+.agree-check-block__checkbox {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
 
-.agree-alt-checkbox {
+.agree-check-block__alt-checkbox {
   position: absolute;
   display: inline-block;
   content: "";
@@ -715,7 +710,7 @@ body {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.agree-label-checkbox:checked + .agree-alt-checkbox {
+.agree-check-block__checkbox:checked + .agree-check-block__alt-checkbox {
   background-color: var(--bluebtn);
   border-color: var(--bluebtn);
   background-image: url(../images/v-check-opt.svg);
@@ -723,31 +718,29 @@ body {
   background-origin: border-box;
 }
 
-.agree-label-checkbox:focus + .agree-alt-checkbox {
+.agree-check-block__checkbox:focus + .agree-check-block__alt-checkbox {
   border-color: var(--bluebtn);
   background-size: contain;
 }
 
-.argee-check-icon {
-  position: absolute;
-  display: inline-block;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 16px;
-  height: 15px;
-  fill: currentColor;
-  opacity: 1;
-  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal .agree-label-link {
+/*
+.agree-check-block__check-icon {
+    position: absolute;
+    display: inline-block;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 15px;
+    fill: currentColor;
+    opacity: 1;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}*/
+.agree-check-block__label-link {
   position: relative;
   color: var(--fontcolordescrp);
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /*padding-left: 8px;*/
   color: var(--bluebtn);
   outline: none;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -782,7 +775,7 @@ body {
   background-color: var(--button-to-order-active-clr);
 }
 
-.modal .modal-close-button {
+.modal-close-button {
   position: absolute;
   /*z-index: 4;*/
   top: 8px;
@@ -817,7 +810,7 @@ body {
           justify-content: center;
 }
 
-.modal .modal-close-button-icon {
+.modal-close-button__icon {
   fill: currentColor;
   width: 18px;
   height: 18px;
@@ -825,14 +818,14 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal .modal-close-button:hover,
-.modal .modal-close-button:focus {
+.modal-close-button:hover,
+.modal-close-button:focus {
   background-color: var(--white-bg);
   -webkit-transform: translateY(-200%);
           transform: translateY(-200%);
 }
 
-.modal .modal-close-button:hover .modal-close-button-icon,
-.modal .modal-close-button:focus .modal-close-button-icon {
+.modal-close-button:hover .modal-close-button__icon,
+.modal-close-button:focus .modal-close-button__icon {
   fill: var(--bluebtn);
 }/*# sourceMappingURL=main.css.map */
