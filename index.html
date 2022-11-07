@@ -478,7 +478,7 @@
     <!--modal-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <p class="form-header">Залиште свої дані, ми вам передзвонимо</p>
+        <p class="modal__header">Залиште свої дані, ми вам передзвонимо</p>
         <!--input type="text" />
         <input type="phone" />
         <input type="email" />
@@ -487,32 +487,44 @@
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, odit!
         </p-->
         <!-- autocomplete="on" novalidate-->
-        <form class="main-form" action="#" name="contact-form">
-          <label class="form-label" for="person-name">Ім'я</label>
-          <div class="form-input-operator">
-            <input class="form-input" id="person-name" type="text" name="person-name" required />
-            <svg class="form-input-icon">
+        <form class="modal__main" action="#" name="contact-form">
+          <label class="modal-form__label" for="person-name">Ім'я</label>
+          <div class="modal-form__input--operator">
+            <input
+              class="modal-form__input"
+              id="person-name"
+              type="text"
+              name="person-name"
+              required
+            />
+            <svg class="modal-form__icon">
               <use href="./images/icons.svg#icon-person-black-18dp1-opt"></use>
             </svg>
           </div>
-          <label class="form-label" for="person-phone">Телефон</label>
-          <div class="form-input-operator">
-            <input class="form-input" id="person-phone" type="tel" name="person-phone" required />
-            <svg class="form-input-icon">
+          <label class="modal-form__label" for="person-phone">Телефон</label>
+          <div class="modal-form__input--operator">
+            <input
+              class="modal-form__input"
+              id="person-phone"
+              type="tel"
+              name="person-phone"
+              required
+            />
+            <svg class="modal-form__icon">
               <use href="./images/icons.svg#icon-phone-black-18dp1-opt"></use>
             </svg>
           </div>
-          <label class="form-label" for="person-email">Пошта</label>
-          <div class="form-input-operator">
-            <input class="form-input" id="person-email" type="email" name="person-email" />
-            <svg class="form-input-icon">
+          <label class="modal-form__label" for="person-email">Пошта</label>
+          <div class="modal-form__input--operator">
+            <input class="modal-form__input" id="person-email" type="email" name="person-email" />
+            <svg class="modal-form__icon">
               <use href="./images/icons.svg#icon-email-black-18dp1-opt"></use>
             </svg>
           </div>
-          <label class="form-label" for="person-comment">Коментар</label>
-          <div class="form-input-operator-per-comm">
+          <label class="modal-form__label" for="person-comment">Коментар</label>
+          <div class="modal-form__input--operator-per-comm">
             <textarea
-              class="person-comment"
+              class="modal-form__person-comment"
               id="person-comment"
               name="person-comment"
               placeholder="Введіть текст"
