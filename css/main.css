@@ -525,7 +525,7 @@ body {
   /*fixed;*/
 }
 
-.hero-title {
+.hero__title {
   margin-top: 0;
   max-width: 696px;
   margin-bottom: 30px;
@@ -538,7 +538,7 @@ body {
   line-height: 1.36;
 }
 
-.hero-button {
+.hero__button {
   display: inline-block;
   padding: 10px 32px;
   min-width: 216px;
