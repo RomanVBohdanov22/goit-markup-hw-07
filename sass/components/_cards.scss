@@ -69,7 +69,7 @@
         }
 }
 
-.cards-item-overlay-content {
+.cards-item__overlay-content {
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 63px;
@@ -84,7 +84,7 @@
     color: var(--whitetxt);
 }
 
-.cards-item-title {
+.cards-item__title {
     margin-top: 0;
     margin-bottom: 4px;
     font-size: 18px;
@@ -94,7 +94,7 @@
     letter-spacing: 0.06em;
 }
 
-.cards-item-text {
+.cards-item__text {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 16px;
