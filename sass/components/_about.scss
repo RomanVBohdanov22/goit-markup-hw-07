@@ -2,7 +2,7 @@
     /*margin-top: 0;*/
     padding-top: 0;
 }
-.about-title {
+.about__title {
     margin-top: 0;
     margin-bottom: 50px;
     font-size: 36px;
@@ -12,25 +12,25 @@
     text-align: center;
 }
 
-.about-list {
+.about__list {
     display: flex;
     flex-direction: row;
     gap: 30px;
 }
 
-.about-item {
+.about__item {
     margin-top: 0;
     position: relative;
 }
 
-.about-image {
+.about__image {
     margin-top: 0;
     display: block;
     max-width: 100%;
     height: auto;
 }
 
-.about-item-label {
+.about_front-label {
     position: absolute;
     margin: 0;
     width: 100%;
