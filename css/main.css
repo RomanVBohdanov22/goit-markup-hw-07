@@ -116,8 +116,40 @@ body {
   /*outline: 2px solid palegreen; /*Репета-стайл*/
 }
 
+.all-big-chars {
+  text-transform: uppercase;
+}
+
 .header {
   border-bottom: 1px solid var(--header-frame-color);
+}
+
+.header-flex-box,
+.nav-contacts-flex,
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  margin-left: 93px;
+}
+
+.nav-contacts-flex {
+  margin-left: auto;
+  /*margin-right: none;*/
 }
 
 .logo {
@@ -143,42 +175,4 @@ body {
   display: inline-block;
   margin-bottom: 20px;
   /*margin: 0 auto;*/
-}
-
-/*
-$color: coral;
-$main-width: 400px;
-.test {
-  background-color: $color;
-  width: $main-width;
-  $color2: $color;
-}
-.just-p {
-  $color: blue;
-  background-color: $color;
-}
-.section {
-  color: red;
-  &-title {
-    color: green;
-    &--magenta
-    {color: magenta;}
-  }
-  &-text {
-    color: teal;
-  }
-}
-.button
-{
-    background-color: olivedrab;
-    &:hover,
-    &:focus
-    {
-        color:aqua;
-    }
-    .section:hover &
-    {
-        background-color: orange;
-    }
-}
-*//*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

@@ -1,3 +1,21 @@
 .header {
     border-bottom: 1px solid var(--header-frame-color);
 }
+.header-flex-box,
+.nav-contacts-flex,
+.navigation {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+    margin-left: 93px;
+}
+
+.nav-contacts-flex {
+    margin-left: auto;
+    /*margin-right: none;*/
+}
