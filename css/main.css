@@ -1102,8 +1102,8 @@ body {
 }
 .modal-close-button:hover, .modal-close-button:focus {
   background-color: var(--white-bg);
-  -webkit-transform: translateY(-200%);
-          transform: translateY(-200%);
+  -webkit-transform: translateY(-5%);
+          transform: translateY(-5%);
 }
 
 .modal-close-button__icon {
